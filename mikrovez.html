@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Magyari Ármin Portfólió</title>
+    <link rel="icon" type="image/png" href="banki2.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            scroll-behavior: smooth;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #171a21;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 10px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 30px;
+            margin-right: 10px;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 60%;
+        }
+        .nav-links li {
+            position: relative;
+            margin: 0 15px;
+        }
+        .nav-links a {
+            color: white;
+            margin-left: 3px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #222;
+            min-width: 150px;
+            list-style: none;
+            padding: 10px 0;
+            margin: 0;
+        }
+        .dropdown-menu li {
+            padding: 5px 20px;
+            position: relative;
+        }
+        .dropdown-menu a {
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown-menu a:hover {
+            color: #66c0f4;
+        }
+        .nav-links li:hover .dropdown-menu {
+            display: block;
+        }
+        .profile-image {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+        iframe{
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="banki2.png" alt="Bánki Logo">
+            <span style="color: white; font-size: 20px;">Magyari Ármin Portfólió</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">Bevezető ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Önéletrajz</a></li>
+                    <li><a href="motivációs.html">Motivációs levél</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">11. osztály ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="digitalis.html">Digitális áramkörök</a></li>
+                    <li><a href="elektro.html">Elektrotechnika</a></li>
+                    <li><a href="progalap.html">Programozás alapjai</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">12. osztály ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="adatb.html">Adatbáziskezelés alapjai</a></li>
+                    <li><a href="halozat.html">Hálózat kezelés</a></li>
+                    <li><a href="mikrovez.html">Mikrovezérlő programozás</a></li>
+                    <li><a href="plc.html">PLC programozás</a></li>
+                    <li><a href="szimulacio.html">Számítógépes szimuláció</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">13. osztály ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="iot.html">IoT</a></li>
+                    <li><a href="progfejl.html">Programfejlesztés</a></li>
+                    <li><a href="robot.html">Robottechnika,CAD/CAM</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <iframe src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72555357980_tanulo_bankisuli_hu/EeK4PdnV1NNHgoRRLTDHsEEBYsWpQ-0RKwzNfoOmW8sFOw?e=4ujOR0&amp;action=embedview" width="100%" height="800px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+</body>
+</html>
